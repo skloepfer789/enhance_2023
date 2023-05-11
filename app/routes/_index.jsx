@@ -22,9 +22,9 @@ export default function Index() {
       </div>
       <div style={{ fontFamily: "Open Sans, sans-serif", lineHeight: "1.4", backgroundColor:EnhanceBlue, backgroundImage:"../../public/background_icon_overlay.svg", padding:"30px 0", marginTop:"50px"}}>
         <div className="textArea knockout rightHandText">
-          <div className="sectionHeading">
+          <div className="sectionHeading rightFloat">
             <div><h2 className="knockout"><sub>OUR SERVICES</sub></h2></div>
-            <div className="dividerBar dividerWhite dividerRight"></div>
+            <div className="dividerBar dividerWhite"></div>
             <div><h2 className="knockout">testing the fonts</h2></div>
           </div>
           <p>Testing the <em>fonts</em> on this site.<br/>Line Two</p>
