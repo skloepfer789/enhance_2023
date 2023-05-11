@@ -1,0 +1,78 @@
+footer {
+    display: block;
+    background-color: black;
+}
+
+.footer {
+    background-color: black;
+    padding: 60px;
+    margin-left: 50px;
+    display: flex;
+    @media only screen and (max-width: 1100px) {
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+}
+
+.col-4 {
+    width: 25%;
+    margin: 0 40px;
+    @media only screen and (max-width: 1100px) {
+        width: 35%;
+        text-align: center;
+    }
+    @media only screen and (max-width: 700px) {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+    @media only screen and (max-width: 1100px) {
+        text-align: center;
+    }
+}
+
+.footer_logo {
+    width: 150px;
+}
+
+.footerFont {
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+}
+
+h5 {
+    margin: 0;
+    font-weight: 700;
+}
+
+.footerMenu {
+    font-weight: 800;
+    font-size: 20;
+    color: white;
+    line-height: 30px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.copywrite {
+    display: block;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,231 @@
+.mobile_header {
+    background-color: rgba(0, 0, 0, 0.95);
+    margin: 0;
+    padding: 30px 25px;
+    color: white;
+    height: 40px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    display: none;
+    z-index: 10;
+    transition-duration: 1.2s;
+    @media only screen and (max-width: 700px) {
+        display: flex;
+    }
+}
+
+.transparent {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.mobileopen {
+    display: none;
+}
+
+.logo {
+    height: 30px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    min-width: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 700px) {
+        display: none;
+    }
+}
+
+.header_heading {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    line-height: 0;
+    z-index: 800;
+    position: fixed;
+    @media only screen and (max-width: 700px) {
+        display: none;
+    }
+}
+
+.headingopen {
+    color: var(--enhanceOrange);
+    transition-duration: .1s;
+}
+
+.headingopen:hover {
+    color: white;
+}
+
+.invisible {
+    text-align: left;
+    height: fit-content;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    border: 0;
+    padding-top: 30px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.invisible:hover {
+    color: var(--enhanceOrange);
+    cursor: pointer;
+}
+
+.burger {
+    border: none;
+    width: 35px;
+    height: 35px;
+    float: right;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    position: fixed;
+    top: 12px;
+    right: 20px;
+    z-index: 800;
+    @media only screen and (max-width: 700px) {
+        display: flex;
+    }
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background-color: var(--enhanceOrange);
+    border-radius: 5px;
+    transition: all 1x linear;
+    position: relative;
+    transform-origin: 1px;
+    transition-duration: .2s;
+}
+
+.line:nth-child(2) {
+    width: 35px!important;
+}
+
+.open:first-child {
+    transform: rotate(45deg);
+    width: 35px;
+}
+
+.closed:first-child {
+    transform: rotate(0);
+}
+
+.open:nth-child(2) {
+    transform: translateX(100px);
+}
+
+.closed:nth-child(2) {
+    transform: translateX(0);
+}
+
+.open:nth-child(3) {
+    transform: rotate(-45deg);
+    width: 35px;
+}
+
+.closed:nth-child(3) {
+    transform: rotate(0);
+}
+
+.menu {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 10%;
+    z-index: 10;
+    transition: all 0.2x linear;
+    transform-origin: 1px;
+    transition-duration: .5s;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.menu a h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 800;
+    color: white;
+    transition-duration: .1s;
+}
+
+.menu a:hover h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 800;
+    color: var(--enhanceOrange);
+}
+
+.menu a.active h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 800;
+    color: var(--enhanceOrange);
+}
+
+.menu a h3 {
+    font-size: 30px;
+    text-transform: lowercase;
+    line-height: 20px;
+    font-weight: 300;
+    color: #9d9d9d;
+    transition-duration: .1s;
+}
+
+.menu a:hover h3 {
+    color: var(--enhanceOrange);
+}
+
+.menu a.active h3 {
+    color: var(--enhanceOrange);
+}
+
+.menuclosed {
+    transform: translateX(-100vw);
+    @media only screen and (max-width: 700px) {
+        transform: translateY(-180%);
+    }
+}
+
+.menu .menuopen {
+    transform: translateX(0);
+    transform: translateY(0);
+}
+
+.menuLogo {
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    width: 20vw;
+    z-index: 900;
+}
+
+.emphasis {
+    color: var(--enhanceOrange);
+    font-size: 44px;
+}

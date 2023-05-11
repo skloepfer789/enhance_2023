@@ -1,0 +1,212 @@
+:root {
+    --enhanceBlue: #06245d;
+    --enhanceOrange: #fc6800;
+    --darkGreen: #012218;
+    --enhnacePurple: #890c4d;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    @media only screen and (max-width: 700) {
+        margin-top: -100px!important;
+    }
+}
+
+main {
+    margin-left: 50px;
+    margin-top: -50px;
+    @media only screen and (max-width: 700px) {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+}
+
+a {
+    font-style: none;
+}
+
+a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+p {
+    size: 35px;
+    font-weight: 300;
+    margin: 30px 0 40px 0;
+    line-height: 40px;
+}
+
+p em {
+    color: var(--enhanceBlue);
+    font-weight: 800;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    size: 60px;
+    font-weight: 300;
+    color: black;
+}
+
+.knockout {
+    size: 60px;
+    font-weight: 300;
+    color: white;
+}
+
+.knockout p em {
+    color: var(--enhanceOrange);
+}
+
+h1 em {
+    size: 60px;
+    color: var(--enhanceOrange);
+    font-weight: 800;
+    font-style: normal;
+}
+
+h5 {
+    font-weight: 800;
+    font-size: 20;
+    color: white;
+}
+
+.sectionHeading {
+    margin: 0 0 0 auto;
+    padding: 0;
+    display: inline-block;
+}
+
+.sectionHeading h2 {
+    color: var(--enhanceOrange);
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 20px;
+}
+
+.sectionHeading h2 sub {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.sectionHeading .dividerBar {
+    height: 1px;
+    width: 300px;
+    background-color: var(--enhanceOrange);
+    margin-bottom: 25px;
+    float: left;
+}
+
+.dividerWhite {
+    background-color: white;
+}
+
+.dividerRight {
+    float: right;
+}
+
+.knockout {
+    color: white;
+}
+
+.textArea {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.rightHandText {
+    text-align: right;
+}
+
+.rightHandText p {
+    text-align: left;
+}
+
+.PrimaryButton {
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 50;
+    font-weight: 800;
+    color: #fff;
+    background: var(--enhanceBlue);
+    border: 2px solid var(--enhanceBlue);
+    text-decoration: none;
+    transition-duration: .2s;
+}
+
+.PrimaryButton:hover {
+    color: var(--enhanceBlue);
+    opacity: 1;
+    background: #fff;
+}
+
+.KnockoutButton {
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 50;
+    font-weight: 800;
+    color: #fff;
+    background: none;
+    border: 2px solid white;
+    text-decoration: none;
+    transition-duration: .2s;
+}
+
+.KnockoutButton:hover {
+    color: var(--enhanceBlue);
+    background: #fff;
+    opacity: 1;
+}
+
+.TopBarFull {
+    height: 80vh;
+    min-height: 500px;
+    background-image: url(../images/background_icon_overlay.svg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5%;
+    @media only screen and (max-width: 700px) {
+        padding-top: 100px;
+    }
+}
+
+.TopBarThird {
+    height: 30vh;
+    min-height: 300px;
+    background-image: url(../images/background_icon_overlay.svg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5%;
+    @media only screen and (max-width: 700px) {
+        padding-top: 100px;
+    }
+}
+
+.BarBlue {
+    background-color: var(--enhanceBlue);
+}
+
+.BarOrange {
+    background-color: var(--enhanceOrange);
+}
+
+.BarDarkGreen {
+    background-color: var(--darkGreen);
+}
