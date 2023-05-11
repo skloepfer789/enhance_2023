@@ -170,21 +170,16 @@
     font-weight: 800;
     color: white;
     transition-duration: .1s;
+    @media only screen and (max-width: 700px) {
+        font-size: 30px;
+    }
 }
 
 .menu a:hover h2 {
-    font-size: 50px;
-    text-transform: uppercase;
-    line-height: 30px;
-    font-weight: 800;
     color: var(--enhanceOrange);
 }
 
 .menu a.active h2 {
-    font-size: 50px;
-    text-transform: uppercase;
-    line-height: 30px;
-    font-weight: 800;
     color: var(--enhanceOrange);
 }
 
@@ -195,6 +190,9 @@
     font-weight: 300;
     color: #9d9d9d;
     transition-duration: .1s;
+    @media only screen and (max-width: 700px) {
+        font-size: 25px;
+    }
 }
 
 .menu a:hover h3 {
@@ -228,4 +226,7 @@
 .emphasis {
     color: var(--enhanceOrange);
     font-size: 44px;
+    @media only screen and (max-width: 700px) {
+        font-size: 28px;
+    }
 }
