@@ -25,7 +25,7 @@ export default function Header() {
         }
     };
 
-    const changeBackground = () => {
+   const changeBackground = () => {
         console.log(window.scrollY);
         if (window.scrollY >= 220) {
             setNavbar('');
@@ -38,6 +38,7 @@ export default function Header() {
         changeBackground();
         window.addEventListener("scroll", changeBackground);
     });
+
 
     return (
         <Fragment>
