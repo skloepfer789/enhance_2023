@@ -1,0 +1,83 @@
+.group {
+    margin: 40px 0;
+    min-width: 25vw;
+    position: relative;
+}
+
+.input-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-input {
+    background: none;
+    color: var(--enhanceBlue);
+    font-size: 20px;
+    padding: 15 15 15 7;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--enhanceBlue);
+    margin: 40px 0;
+}
+
+.form-input-label {
+    color: var(--enhanceBlue);
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--enhanceBlue);
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    bottom: 4px;
+    transition: .3s ease all;
+}
+
+.input-row .form-input-label {
+    color: var(--enhanceBlue);
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--enhanceBlue);
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    bottom: 45px;
+    transition: .3s ease all;
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.form-input:focus~.form-input-label {
+    transform: translateY(-19px);
+    font-size: 12px;
+    color: gray;
+}
+
+@media only screen and (max-width: 800px) {
+    .form-input-label {
+        bottom: 2.5px;
+        font-size: 90%;
+    }
+}
+
+.text-input-label {
+    color: var(--enhanceBlue);
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--enhanceBlue);
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    bottom: 4px;
+    transition: .3s ease all;
+}
+
+.form-input:focus~.text-input-label {
+    transform: translateY(-170px);
+    font-size: 12px;
+    color: gray;
+}

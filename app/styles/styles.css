@@ -110,7 +110,7 @@ h5 {
 }
 
 .dividerWhite {
-    background-color: white;
+    background-color: white!important;
 }
 
 .dividerRight {
@@ -118,12 +118,12 @@ h5 {
 }
 
 .knockout {
-    color: white;
+    color: white!important;
 }
 
 .textArea {
     width: 60%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .rightHandText {
@@ -144,6 +144,7 @@ h5 {
     border: 2px solid var(--enhanceBlue);
     text-decoration: none;
     transition-duration: .2s;
+    cursor: pointer;
 }
 
 .PrimaryButton:hover {
@@ -228,5 +229,19 @@ h5 {
     }
     .textArea {
         width: 80%;
+    }
+    .TopBarFull {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        padding: 180px 5% 5% 5%;
+    }
+    .TopBarThird {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        padding: 180px 5% 5% 5%;
     }
 }

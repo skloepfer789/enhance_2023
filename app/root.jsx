@@ -12,11 +12,13 @@ import styles from "./styles/styles.css";
 
 import Header, {links as headerLinks} from "./components/header";
 import Footer, {links as footerLinks} from "./components/footer";
+import ContactForm, {links as contactLinks} from "./components/contact";
 
 export const links = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
   ...headerLinks(),
   ...footerLinks(),
+  ...contactLinks(),
   {rel: "stylesheet", href: styles},
   {
     rel: 'favicon',
@@ -59,6 +61,7 @@ export default function App() {
       <body>
         <Header />
         <Outlet />
+        <ContactForm/>
         <Footer />
         <ScrollRestoration />
         <Scripts />

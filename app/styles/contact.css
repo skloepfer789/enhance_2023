@@ -1,0 +1,27 @@
+.contactRow {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    min-height: 1000px;
+}
+
+.contact {
+    position: absolute;
+    top: 50;
+    left: 110px;
+    min-width: 60vw;
+    background-color: white;
+    padding: 50px;
+    max-height: 800px;
+}
+
+.form-panel {
+    width: 60vw;
+    background-color: var(--enhanceBlue);
+    padding-left: 110px;
+}
+
+.info-panel {
+    background-color: var(--enhanceOrange);
+    width: 40vw;
+}

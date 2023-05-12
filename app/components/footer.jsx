@@ -1,8 +1,8 @@
 import { Link } from '@remix-run/react';
 
-import SvgComponent from "../images/TypeOnlyLogo";
+import SvgComponent from "~/images/TypeOnlyLogo";
 
-import styles from '../styles/footer.css';
+import styles from '~/styles/footer.css';
 
 export default function Footer() {
 

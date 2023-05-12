@@ -30,6 +30,15 @@ export default function Index() {
           <p>Testing the <em>fonts</em> on this site.<br/>Line Two</p>
         </div>
       </div>
+      <div className="textArea">
+        <div className="sectionHeading">
+          <div><h2><sub>ABOUT ENHANCE PRINTING</sub></h2></div>
+          <div className="dividerBar"></div>
+          <div><h2>testing the fonts</h2></div>
+        </div>
+        <p>Testing the <em>fonts</em> on this site.<br/>Line Two</p>
+        <a href='google.com' className="PrimaryButton">SEE MORE</a>
+      </div>
     </main>
   );
 }

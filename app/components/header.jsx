@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { Link, NavLink } from "@remix-run/react";
 import {FaPhoneAlt} from 'react-icons/fa'
 
-import headerstyles from '../styles/header.css';
+import headerstyles from '~/styles/header.css';
 
-import SvgComponent from "../images/TypeOnlyLogo";
+import SvgComponent from "~/images/TypeOnlyLogo";
 
 
 export const links = () => [
@@ -65,9 +65,10 @@ export default function Header() {
                         <NavLink onClick={() => ToggleMenu() } to='/services/wideformat'><h3 className="subheadFont">wide format</h3></NavLink>
                         <NavLink onClick={() => ToggleMenu() } to='/services/web'><h3 className="subheadFont">web design</h3></NavLink>
                     </ul>
-                <NavLink onClick={() => ToggleMenu() } to='/upload'><h2 className="linkFont">Upload Files</h2></NavLink>
+                <NavLink onClick={() => ToggleMenu() } to='/quote'><h2 className="linkFont">Quote</h2></NavLink>
+                <NavLink onClick={() => ToggleMenu() } to='/upload'><h2 className="linkFont">Upload</h2></NavLink>                
+                <NavLink onClick={() => ToggleMenu() } to='/about'><h2 className="linkFont">About</h2></NavLink>
                 <NavLink onClick={() => ToggleMenu() } to='/pay'><h2 className="linkFont">Pay Invoice</h2></NavLink>
-                <NavLink onClick={() => ToggleMenu() } to='/about'><h2 className="linkFont">About Us</h2></NavLink>
                 <NavLink onClick={() => ToggleMenu() } to='/faq'><h2 className="linkFont">FAQ</h2></NavLink>
                 <NavLink onClick={() => ToggleMenu() } to='tel:970-282-1891'><h2 className="linkFont">Call Us  <FaPhoneAlt className="emphasis"/></h2></NavLink>
             </nav>
