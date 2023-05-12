@@ -12,6 +12,7 @@
     display: none;
     transition-duration: 1.2s;
     overflow-x: hidden;
+    z-index: 798;
 }
 
 .transparent {
@@ -145,7 +146,7 @@
     transition: all 0.2x linear;
     transform-origin: 1px;
     transition-duration: .5s;
-    z-index: 700;
+    z-index: 799;
 }
 
 .menu a {

@@ -81,3 +81,25 @@
     font-size: 12px;
     color: gray;
 }
+
+@media only screen and (max-width: 1100px) {
+    .group {
+        min-width: 36vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .group {
+        min-width: 100vw;
+    }
+    .input-row {
+        display: block;
+    }
+    .input-row .form-input-label {
+        bottom: 4px;
+        font-size: 14px;
+    }
+    .text-input-label {
+        font-size: 14px;
+    }
+}
