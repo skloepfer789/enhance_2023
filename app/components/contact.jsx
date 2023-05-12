@@ -11,10 +11,9 @@ export default function ContactForm() {
         <div className='contactRow'>
             <div className='form-panel'>
                 <div className="sectionHeading">
-                    <div><h2 className='knockout'><sub>ABOUT ENHANCE PRINTING</sub></h2></div>
-                    <div className="dividerBar dividerWhite"></div>
-                    <div><h2 className='knockout'>contact us</h2></div>
-                </div>
+                    <div className="subheading_box whiteLine"><h2 className='knockout'><sub>ABOUT ENHANCE PRINTING</sub></h2></div>
+                    <div><h2 className='knockout'>testing the fonts</h2></div>
+                </div><br/>
                 <Form className='contact'>
                     <div className='group'>
                         <input className='form-input' onChange={handleChange} />
