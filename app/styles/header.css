@@ -158,9 +158,6 @@
     font-weight: 800;
     color: white;
     transition-duration: .1s;
-    @media only screen and (max-width: 700px) {
-        font-size: 30px;
-    }
 }
 
 .menu a:hover h2 {
@@ -190,9 +187,6 @@
 
 .menuclosed {
     transform: translateX(-100vw);
-    @media only screen and (max-width: 700px) {
-        transform: translateY(-180%);
-    }
 }
 
 .menu .menuopen {
@@ -235,5 +229,8 @@
     }
     .emphasis {
         font-size: 28px;
+    }
+    .menuclosed {
+        transform: translateY(-180%);
     }
 }
