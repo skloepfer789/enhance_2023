@@ -1,4 +1,4 @@
-import { Fragment, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link, NavLink } from "@remix-run/react";
 import {FaPhoneAlt} from 'react-icons/fa'
 
@@ -41,15 +41,15 @@ export default function Header() {
 
 
     return (
-        <Fragment>
-                <header id='mobileheader' className={`mobile_header mobile ${navbar}`}>
-                    <Link to='/'><SvgComponent name='icon1' className='logo' alt='Enhance Printing Logo'/></Link>
-                </header>
-                <button onClick={()=>ToggleMenu()} className={`burger`} >
-                    <div className={`line ` + open} />
-                    <div className={`line ` + open} />
-                    <div className={`line ` + open} />
-                </button>
+        <>
+            <header id='mobileheader' className={`mobile_header mobile ${navbar}`}>
+                <Link to='/'><SvgComponent name='icon1' className='logo' alt='Enhance Printing Logo'/></Link>                
+            </header>
+            <button onClick={()=>ToggleMenu()} className={`burger`} >
+                <div className={`line ` + open} />
+                <div className={`line ` + open} />
+                <div className={`line ` + open} />
+            </button>                
             <header>
                 <div className="sidebar"></div>
                 <button onClick={() => ToggleMenu()} className="invisible"><h2 className={`header_heading heading` + open}>{!openState ? `MENU` : `CLOSE`}</h2></button>
@@ -73,6 +73,6 @@ export default function Header() {
             </nav>
             <SvgComponent name='icon2' className='menuLogo' alt='Enhance Printing Logo'/>
         </section>
-        </Fragment>
+        </>
     );
 }

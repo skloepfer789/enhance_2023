@@ -1,17 +1,17 @@
 .mobile_header {
     background-color: rgba(0, 0, 0, 0.95);
     margin: 0;
-    padding: 30px 25px;
+    padding: 10px 25px;
     color: white;
-    height: 40px;
+    height: 60px;
     width: 100vw;
     align-items: center;
-    justify-content: space-between;
     position: fixed;
     top: 0;
+    left: 0;
     display: none;
-    z-index: 10;
     transition-duration: 1.2s;
+    overflow-x: hidden;
 }
 
 .transparent {
@@ -85,9 +85,10 @@
     background: transparent;
     cursor: pointer;
     padding: 0;
+    margin: 0;
     position: fixed;
     top: 12px;
-    right: 35px;
+    right: 25px;
     z-index: 800;
 }
 
@@ -140,7 +141,6 @@
     top: 0;
     left: 0;
     padding: 0 10%;
-    z-index: 10;
     transition: all 0.2x linear;
     transform-origin: 1px;
     transition-duration: .5s;
@@ -214,22 +214,23 @@
 }
 
 @media only screen and (max-width: 700px) {
-    .mobile_header{
+    .mobile_header {
         display: flex;
     }
-    .sidebar{
+    .sidebar {
         display: none;
     }
-    .header_heading{
+    .header_heading {
         display: none;
     }
-    .burger{
+    .burger {
         display: flex;
+        z-index: 800;
     }
-    .menu a h2{
+    .menu a h2 {
         font-size: 30px;
     }
-    .menu a h3{
+    .menu a h3 {
         font-size: 25px;
     }
     .emphasis {
