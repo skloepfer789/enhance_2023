@@ -36,7 +36,7 @@ export default function Header() {
 
     useEffect(()=>{
         changeBackground();
-        window.addEventListener("scroll", changeBackground)
+        window.addEventListener("scroll", changeBackground);
     });
 
     return (

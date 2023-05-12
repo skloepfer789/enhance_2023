@@ -8,24 +8,11 @@ footer {
     padding: 60px;
     margin-left: 50px;
     display: flex;
-    @media only screen and (max-width: 1100px) {
-        margin-left: 0;
-        flex-wrap: wrap;
-    }
 }
 
 .col-4 {
     width: 25%;
     margin: 0 40px;
-    @media only screen and (max-width: 1100px) {
-        width: 35%;
-        text-align: center;
-    }
-    @media only screen and (max-width: 700px) {
-        width: 100%;
-        margin: 0 auto;
-        text-align: center;
-    }
 }
 
 .center {
@@ -34,9 +21,6 @@ footer {
 
 .right {
     text-align: right;
-    @media only screen and (max-width: 1100px) {
-        text-align: center;
-    }
 }
 
 .footer_logo {
@@ -76,3 +60,25 @@ h5 {
     padding: 0;
     padding-bottom: 20px;
 }
+
+@media only screen and (max-width: 1100px) {
+    .footer {
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+    .col-4{
+        width: 35%;
+        text-align: center;
+    }
+    .right {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .col-4 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}   
