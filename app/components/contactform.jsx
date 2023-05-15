@@ -49,10 +49,10 @@ export default function ContactForm() {
                     </div>
                     <div className='icon-box'>
                         <Link to='mailto:info@enhanceprinting.com' >
-                            <FaEnvelope className='icon' />
+                            <FaEnvelope className='contact-icon' />
                         </Link>
                         <Link to='tel:970-282-1891'>
-                            <FaPhoneAlt className='icon' />
+                            <FaPhoneAlt className='contact-icon' />
                         </Link> 
                     </div>
                 </div>
@@ -62,10 +62,10 @@ export default function ContactForm() {
                     </div>
                     <div className='icon-box'>
                         <Link target="_blank" rel='noreferrer' to='https://www.facebook.com/EnhancePrintCopy/' >
-                            <FaFacebook className='icon' />
+                            <FaFacebook className='contact-icon' />
                         </Link>
                         <Link target="_blank" rel='noreferrer' to='https://www.linkedin.com/company/enhance-printing/'>
-                            <FaLinkedinIn className='icon' />
+                            <FaLinkedinIn className='contact-icon' />
                         </Link>
                     </div>
                 </div>

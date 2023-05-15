@@ -123,10 +123,13 @@
     .icon-box {
         width: 100px;
         font-size: 45px;
-        padding: 0;
+        padding: 0 15px 0 0;
         color: white;
     }
     .sectionHeading h4 {
         font-size: 23px;
+    }
+    .contact-icon {
+        margin-right: 30px;
     }
 }
