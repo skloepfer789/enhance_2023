@@ -3,7 +3,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 export default function ServicesBlock() {
   return (
-    <>
+    <section id='services'>
       <div className='heading-box'>
         <div className="sectionHeading">
           <div className="subheading_box"><h2><sub>WHY ENHANCE PRINTING</sub></h2></div>
@@ -52,6 +52,6 @@ export default function ServicesBlock() {
           <Link to='/services/web' className="PrimaryButton">SEE MORE</Link>
         </div>
       </div>
-    </>
+    </section>
   );
 }

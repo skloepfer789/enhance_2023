@@ -3,7 +3,7 @@ import { Link } from '@remix-run/react';
 
 export default function HomeIntro() {
     return(
-        <>
+        <section id='intro'>
         <div className="row">
         <div className='col-2of3'>
           <div className="sectionHeading">
@@ -40,6 +40,6 @@ export default function HomeIntro() {
           </p>
         </AnimationOnScroll>
       </div>
-      </>
+      </section>
     );
 }

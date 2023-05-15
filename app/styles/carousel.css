@@ -1,0 +1,144 @@
+#testimonials-block {
+    background-color: var(--enhanceBlue);
+    background-image: url(../images/background_icon_overlay.svg);
+}
+
+.carousel-root {
+    width: 64% !important;
+    margin: auto !important;
+    margin-top: 3% !important;
+}
+
+.carousel .slide {
+    color: #222;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.carousel .slide img {
+    width: 139px !important;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.myCarousel {
+    margin-top: -6%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    min-height: 520px;
+}
+
+.carousel .control-dots {
+    padding-left: 5px !important;
+    outline: 0;
+    bottom: 5% !important;
+}
+
+.myCarousel h3 {
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 0.2px;
+    margin-bottom: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+.myCarousel h4 {
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 500;
+    color: #fff;
+    font-size: 120%;
+    padding-bottom: 15px;
+}
+
+.myCarousel p {
+    border-top: 1px solid var(--enhanceOrange);
+    font-weight: 100 !important;
+    line-height: 200% !important;
+    color: #fff;
+    font-size: 110%;
+    font-family: sans-serif;
+    max-height: 67px;
+    padding-top: 20px;
+    margin: 20px 20% 20px 20%;
+}
+
+.myCarousel p:before {
+    content: "“";
+    color: var(--enhanceOrange);
+    font-size: 300%;
+    font-family: monospace;
+    font-weight: 100;
+}
+
+.myCarousel p:after {
+    content: "”";
+    color: var(--enhanceOrange);
+    font-size: 300%;
+    font-family: monospace;
+    font-weight: 100;
+    line-height: 0;
+}
+
+.carousel .control-dots .dot {
+    box-shadow: none !important;
+    background: var(--enhanceOrange) !important;
+    outline: 0;
+}
+
+.carousel.carousel-slider .control-arrow {
+    background: var(--enhanceOrange) !important;
+    height: 50px !important;
+    position: absolute;
+    top: 40% !important;
+    display: none;
+}
+
+@media only screen and (max-width: 850px) {
+    .carousel-root {
+        outline: 0;
+        width: 96% !important;
+        margin: auto !important;
+    }
+    .carousel.carousel-slider .control-arrow {
+        display: none !important;
+    }
+    .myCarousel {
+        background: none;
+        width: 96%;
+        padding-top: 8%;
+        padding-bottom: 12.5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: 600px;
+    }
+    .carousel .slide img {
+        width: 28% !important;
+        margin-top: 25px;
+    }
+    .myCarousel p {
+        border-top: 1px solid var(--enhanceOrange);
+        font-size: 110%;
+        font-family: sans-serif;
+        max-height: 67px;
+        padding-top: 20px;
+        margin: 20px 10% 20px 10%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .testimonials-block {
+        background-attachment: scroll;
+    }
+    .test-h2 {
+        display: none!important;
+    }
+}
