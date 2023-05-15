@@ -39,7 +39,7 @@ export default function Footer() {
             </div>            
         </div>
         <div className='copywrite'>
-                <p className='footerFont center'>2023</p>
+                <p className='footerFont center'>&copy;2023 Enhance Printing</p>
             </div>      
         </footer>
     );

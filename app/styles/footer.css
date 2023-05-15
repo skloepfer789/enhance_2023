@@ -65,13 +65,14 @@ h5 {
     .footer {
         margin-left: 0;
         flex-wrap: wrap;
+        align-content: space-between;
     }
-    .col-4{
-        width: 35%;
-        text-align: center;
+    .col-4 {
+        width: 30vw;
+        text-align: left;
     }
     .right {
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -81,4 +82,4 @@ h5 {
         margin: 0 auto;
         text-align: center;
     }
-}   
+}
