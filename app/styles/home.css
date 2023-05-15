@@ -1,0 +1,61 @@
+.row {
+    width: 100vw - 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.col-2of3 {
+    width: 55%;
+    padding: 25px;
+}
+
+.col-1of3-aside {
+    padding-top: 50px;
+    width: 33%;
+    display: block;
+    text-align: center;
+}
+
+.inlineImage {
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.col-1of3 {
+    width: 33.33%;
+    display: block;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+
+.icon {
+    width: 120px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .row {
+        display: block;
+    }
+    .col-1of3 {
+        width: 100%;
+    }
+    .col-1of3-aside {
+        width: 100%;
+        margin: 20px auto 60px;
+    }
+    .col-2of3 {
+        width: 100%;
+        padding: 50px 50px 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .row {
+        margin-left: 0;
+    }
+}
