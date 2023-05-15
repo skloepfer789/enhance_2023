@@ -45,6 +45,12 @@
     line-height: 0;
     z-index: 800;
     position: fixed;
+    color: white;
+    font-size: 25px;
+}
+
+.header_heading:hover {
+    color: var(--enhanceOrange);
 }
 
 .headingopen {

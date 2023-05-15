@@ -65,6 +65,14 @@ h1 {
     color: black;
 }
 
+h2 {
+    color: var(--enhanceOrange);
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 20px;
+}
+
 .knockout {
     size: 60px;
     font-weight: 300;
@@ -231,6 +239,10 @@ h5 {
     font-style: normal;
 }
 
+.heading-box {
+    margin-left: 100px;
+}
+
 @media only screen and (max-width: 700px) {
     body {
         margin-top: -100px!important;
@@ -260,5 +272,8 @@ h5 {
         background-repeat: no-repeat;
         background-attachment: local;
         padding: 180px 5% 5% 5%;
+    }
+    .heading-box {
+        margin-left: 40px;
     }
 }
