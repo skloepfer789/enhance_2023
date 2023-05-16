@@ -1,6 +1,9 @@
 #testimonials-block {
     background-color: var(--enhanceBlue);
     background-image: url(../images/background_icon_overlay.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .carousel-root {
@@ -140,5 +143,9 @@
     }
     .test-h2 {
         display: none!important;
+    }
+    #testimonials-block {
+        background-attachment: unset;
+        background-size: cover;
     }
 }
