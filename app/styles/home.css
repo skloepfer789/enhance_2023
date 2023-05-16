@@ -60,8 +60,8 @@
 }
 
 .next-project-text {
-    width: 70%;
-    margin: 90px auto 80px;
+    width: 80%;
+    margin: 90px 10px 80px 10px;
     font-size: 20px;
 }
 
@@ -103,15 +103,19 @@
         padding: 50px 50px 0;
     }
     .col-1of2 {
-        padding: 15px 80px;
+        padding: 10px 80px;
         width: 100%;
+        margin: 0 0 50px 0;
     }
     .row-noShrink {
         margin-left: 0;
     }
     .col-1of4 {
         width: 50%;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
+    }
+    .next-project-text {
+        width: 87%;
     }
 }
 
@@ -119,8 +123,7 @@
     .row {
         margin-left: 0;
     }
-    .col-1of4 {
-        width: 50%;
-        margin-bottom: 50px;
+    .row-noShrink {
+        margin-left: -5vw;
     }
 }
