@@ -273,9 +273,13 @@ h5 {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: #222;
     animation: fade-slide-right 1s ease-out forwards;
     z-index: 899;
+}
+
+.modal-backdrop:hover {
+    cursor: pointer;
 }
 
 .modal {
@@ -289,6 +293,10 @@ h5 {
     animation: fade-slide-down .5s ease-out forwards;
     z-index: 900;
     box-sizing: border-box;
+}
+
+.modal:hover {
+    cursor: default;
 }
 
 .closeButton {

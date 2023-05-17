@@ -65,7 +65,7 @@ export default function Header() {
                         <NavLink onClick={() => ToggleMenu() } to='/services/wideformat'><h3 className="subheadFont">wide format</h3></NavLink>
                         <NavLink onClick={() => ToggleMenu() } to='/services/web'><h3 className="subheadFont">web design</h3></NavLink>
                     </ul>
-                <NavLink onClick={() => ToggleMenu() } to='/quote'><h2 className="linkFont">Quote</h2></NavLink>
+                <Link preventScrollReset={true} onClick={() => ToggleMenu() } to='/quote'><h2 className="linkFont">Quote</h2></Link>
                 <NavLink onClick={() => ToggleMenu() } to='/upload'><h2 className="linkFont">Upload</h2></NavLink>                
                 <NavLink onClick={() => ToggleMenu() } to='/about'><h2 className="linkFont">About</h2></NavLink>
                 <NavLink onClick={() => ToggleMenu() } to='/pay'><h2 className="linkFont">Pay Invoice</h2></NavLink>

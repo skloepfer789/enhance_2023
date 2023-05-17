@@ -10,7 +10,7 @@ export const meta = () => {
 
     const nav = useNavigate();
     function closeHandler(){
-      nav('..');
+      nav(-1);
     }
     return (
       <main>

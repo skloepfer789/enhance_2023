@@ -1,20 +1,20 @@
 import { useNavigate } from "@remix-run/react";
 
 import Modal from "../components/modal";
+import { useState } from "react";
 
 export const meta = () => {
     return [{ title: "Enhnace Printing | Northern Colorado's One-Stop-Shop" }];
 };
   
   export default function QuotePage() {
-
     const nav = useNavigate();
     function closeHandler(){
-      nav('..');
+      nav(-1);
     }
     return (
       <main>
-        <Modal onClose={closeHandler}>
+        <Modal onClose={closeHandler} >
           <h2>Quote Request</h2>
         </Modal>
       </main>
