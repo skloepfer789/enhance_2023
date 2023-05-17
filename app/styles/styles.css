@@ -133,6 +133,11 @@ h5 {
     margin: 0 0 0 auto!important;
 }
 
+.subheading_box {
+    border-bottom: 1px solid var(--enhanceOrange);
+    min-width: 350px;
+}
+
 .whiteLine {
     border-bottom: 1px solid white;
 }
@@ -349,5 +354,8 @@ h5 {
     }
     .heading-box {
         margin-left: 40px;
+    }
+    .subheading_box {
+        min-width: 250px;
     }
 }
