@@ -1,16 +1,22 @@
+import { useNavigate } from "@remix-run/react";
+
+import Modal from "../components/modal";
+
 export const meta = () => {
     return [{ title: "Enhnace Printing | Northern Colorado's One-Stop-Shop" }];
-  };
+};
   
   export default function QuotePage() {
+
+    const nav = useNavigate();
+    function closeHandler(){
+      nav('..');
+    }
     return (
       <main>
-        <div className={`BarBlue TopBarThird`} >
-          <h1 className="knockout">get a quote</h1>
-        </div>
-        <div className="textArea">
-          <p>Testing the <em>fonts</em> on this site.<br/>Line Two</p>
-        </div>
+        <Modal onClose={closeHandler}>
+          <h2>Quote Request</h2>
+        </Modal>
       </main>
     );
   }

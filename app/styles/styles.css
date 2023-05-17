@@ -267,6 +267,46 @@ h5 {
     margin-left: 100px;
 }
 
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 1);
+    animation: fade-slide-right 1s ease-out forwards;
+    z-index: 899;
+}
+
+.modal {
+    position: fixed;
+    top: 10vh;
+    width: fit-content;
+    padding: 50px;
+    border-radius: 6px;
+    border: none;
+    background-color: #fff;
+    animation: fade-slide-down .5s ease-out forwards;
+    z-index: 900;
+    box-sizing: border-box;
+}
+
+.closeButton {
+    color: var(--enhanceOrange);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: 900;
+    background-color: #fff;
+    border: none;
+    font-size: 35px;
+}
+
+.closeButton:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 @media only screen and (max-width: 700px) {
     body {
         margin-top: unset;
