@@ -1,10 +1,10 @@
-import { Link } from '@remix-run/react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import styles from '~/styles/home.css';
 import HomeIntro from '../components/home-intro';
 import ServicesBlock from '../components/services-block';
 import Testimonials, {links as CarouselLinks} from '../components/testimonials';
 import InternalLinks from '../components/internallinks';
+import LandingHero from '../components/landingHero';
 
 export const meta = () => {
   return [{ title: "Enhnace Printing | Northern Colorado's One-Stop-Shop" }];
@@ -13,10 +13,7 @@ export const meta = () => {
 export default function Index() {
   return (
     <main>
-      <div className={`BarBlue TopBarFull`} >
-        <h1 className="knockout">your one stop shop for <em>printing</em></h1>
-        <Link to='/contact' className="KnockoutButton">CONTACT US</Link>
-      </div>
+      <LandingHero />
       <HomeIntro/>
       <ServicesBlock />
       <Testimonials />

@@ -88,6 +88,44 @@
     width: 60%;
 }
 
+.typewriter {
+    position: absolute;
+    top: 80px;
+    left: 90px;
+}
+
+.mobileLogo {
+    width: 100%;
+    margin-bottom: 18vh;
+}
+
+.mobileLogoBox {
+    width: 70vw;
+    margin: 50px 6vw 50px 7vw;
+    position: absolute;
+    top: 22vh;
+    text-align: center;
+    display: none;
+}
+
+.mainLogoBox {
+    width: 44vw;
+    position: absolute;
+    top: 30vh;
+    left: 90px;
+}
+
+.mainLogo {
+    margin-bottom: 60px;
+}
+
+.mainIconBox {
+    width: 45vw;
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+}
+
 @media only screen and (max-width: 800px) {
     .row {
         display: block;
@@ -122,6 +160,10 @@
 }
 
 @media only screen and (max-width: 700px) {
+    .typewriter {
+        right: unset;
+        left: 25px;
+    }
     .row {
         margin-left: 0;
     }
@@ -132,5 +174,14 @@
         padding: 10px 50px;
         width: 100%;
         margin: 0 0 50px 0;
+    }
+    .mobileLogoBox {
+        display: unset;
+    }
+    .mainIconBox {
+        display: none;
+    }
+    .mainLogoBox {
+        display: none;
     }
 }

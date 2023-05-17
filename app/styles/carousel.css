@@ -1,7 +1,7 @@
 #testimonials-block {
     background-color: var(--enhanceBlue);
     background-image: url(../images/background_icon_overlay.svg);
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -139,7 +139,7 @@
 
 @media screen and (max-width: 600px) {
     .testimonials-block {
-        background-attachment: scroll;
+        background-attachment: unset;
     }
     .test-h2 {
         display: none!important;
