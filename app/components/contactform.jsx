@@ -18,26 +18,26 @@ export default function ContactForm() {
                 </div><br/>
                 <Form className='contact'>
                     <div className='group'>
-                        <input className='form-input' onChange={handleChange} />
-                        <label className={`form-input-label`}>name*</label>                    
+                        <input className='form-input' name='name' aria-label="Name" onChange={handleChange} />
+                        <label className={`form-input-label`} for='name' >name*</label>                    
                     </div>
                     <div className='input-row'>
                         <div className='group'>
-                            <input className='form-input' onChange={handleChange} />
-                            <label className={`form-input-label`}>email*</label>                    
+                            <input className='form-input' name='email' aria-label="Email" onChange={handleChange} />
+                            <label className={`form-input-label`} for='email'>email*</label>                    
                         </div>
                         <div className='group'>
-                            <input className='form-input' onChange={handleChange} />
-                            <label className={`form-input-label`}>phone</label>                    
+                            <input className='form-input' name='phone' aria-label="Phone" onChange={handleChange} />
+                            <label className={`form-input-label`} for='phone'>phone</label>                    
                         </div>
                     </div>
                     <div className='group'>
-                        <input className='form-input' onChange={handleChange} />
-                        <label className={`form-input-label`}>company</label>                    
+                        <input className='form-input' name='company' aria-label="Company" onChange={handleChange} />
+                        <label className={`form-input-label`} for='company'>company</label>                    
                     </div>
                     <div className='group'>
-                        <textarea rows={7} className='form-input' onChange={handleChange} />
-                        <label className={`text-input-label`}>message*</label>                    
+                        <textarea rows={7} className='form-input' name='message' aria-label="Message" onChange={handleChange} />
+                        <label className={`text-input-label`} for='message'>message*</label>                    
                     </div>
                     <button className="PrimaryButton" type='submit'>CONTACT</button>
                 </Form>
@@ -48,10 +48,10 @@ export default function ContactForm() {
                         <div className="subheading_box whiteLine"><div><h4 className="knockout">contact</h4></div></div>                    
                     </div>
                     <div className='icon-box'>
-                        <Link to='mailto:info@enhanceprinting.com' >
+                        <Link to='mailto:info@enhanceprinting.com' aria-label="Email Us" >
                             <FaEnvelope className='contact-icon' />
                         </Link>
-                        <Link to='tel:970-282-1891'>
+                        <Link to='tel:970-282-1891' aria-label="Call Us">
                             <FaPhoneAlt className='contact-icon' />
                         </Link> 
                     </div>
@@ -61,10 +61,10 @@ export default function ContactForm() {
                         <div className="subheading_box whiteLine"><div><h4 className="knockout">connect</h4></div></div>                    
                     </div>
                     <div className='icon-box'>
-                        <Link target="_blank" rel='noreferrer' to='https://www.facebook.com/EnhancePrintCopy/' >
+                        <Link target="_blank" rel='noreferrer' to='https://www.facebook.com/EnhancePrintCopy/' aria-label="Our Facebook" >
                             <FaFacebook className='contact-icon' />
                         </Link>
-                        <Link target="_blank" rel='noreferrer' to='https://www.linkedin.com/company/enhance-printing/'>
+                        <Link target="_blank" rel='noreferrer' to='https://www.linkedin.com/company/enhance-printing/' aria-label="Our LinkedIn">
                             <FaLinkedinIn className='contact-icon' />
                         </Link>
                     </div>

@@ -7,7 +7,7 @@ import InternalLinks from '../components/internallinks';
 import LandingHero from '../components/landingHero';
 
 export const meta = () => {
-  return [{ title: "Enhnace Printing | Northern Colorado's One-Stop-Shop" }];
+  return [{ title: "Enhance Printing - Printing, Branding, Signs, and Web Design" }];
 };
 
 export default function Index() {

@@ -20,33 +20,7 @@ export const links = () => [
   ...footerLinks(),
   ...contactLinks(),
   {rel: "stylesheet", href: styles},
-  {
-    rel: 'favicon',
-    sizes: '180x180',
-    href: '../public/favicon.ico',
-  },
-  {
-    rel: 'apple-touch-icon',
-    sizes: '180x180',
-    href: '../public/favicon.ico',
-  },
-  {
-    rel: 'icon',
-    type: 'image/png',
-    sizes: '32x32',
-    href: '../public/Enhance_2023-Favicon-32.ico',
-  },
-  {
-    rel: 'icon',
-    type: 'image/png',
-    sizes: '16x16',
-    href: '../public/Enhance_2023-Favicon-16.ico',
-  },
-  {
-    rel: 'icon',
-    type: 'image/x-icon',
-    href: '../public/favicon.ico',
-  },
+  {rel: 'manifest', href: '/site.webmanifest'},
 ];
 
 export default function App() {

@@ -16,7 +16,7 @@ export default function HomeIntro() {
           </div>
           <div className='col-1of3-aside'>
             <img className='inlineImage' src='/images/ENH_CO-Icon.gif' alt='Colorado Owned And Operated'/><br/>
-            <Link to='/about' className="PrimaryButton">SEE MORE</Link>
+            <Link to='/about' className="PrimaryButton">ABOUT US</Link>
           </div>        
       </div>
       <div className='row'>

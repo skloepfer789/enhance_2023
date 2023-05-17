@@ -19,7 +19,7 @@ export default function ServicesBlock() {
           <p>
             Whether a short or a long run, we have the state of the art equipment to provide fast and cost-effective solutions for a <em>sleek, high-quality finished piece.</em>
           </p>
-          <Link to='/services/printing' className="PrimaryButton">SEE MORE</Link>
+          <Link to='/services/printing' className="PrimaryButton">PRINT SERVICES</Link>
         </div>
         <div className='col-1of2'>
           <AnimationOnScroll initiallyVisible={true} duration={1.25} offset={130} animateIn="animate__bounce" animateOut='animate__bounce'>
@@ -27,9 +27,9 @@ export default function ServicesBlock() {
           </AnimationOnScroll>
           <h2>design</h2>
           <p>
-          We are one of the only print shops in Fort Collins to offer truly <em>full-service marketing.</em> Whether you’re looking for a single piece, an overhaul of your brand, we are here to help.  
+          We are one of the only print shops in Fort Collins to offer truly <em>full-service marketing.</em> Whether you’re looking for a single piece or an overhaul of your entire brand, we are here to help.  
           </p>
-          <Link to='/services/design' className="PrimaryButton">SEE MORE</Link>
+          <Link to='/services/design' className="PrimaryButton">DESIGN SERVICES</Link>
         </div>
         <div className='col-1of2'>
           <AnimationOnScroll initiallyVisible={true} duration={1.25} offset={130} animateIn="animate__bounce" animateOut='animate__bounce'>
@@ -39,7 +39,7 @@ export default function ServicesBlock() {
           <p>
           We are experts at creating eye-catching, <em>wide format solutions.</em> Whether you are looking for event signage, banners, vehicle and exterior vinyl, or interior marketing pieces, we can help.  
           </p>
-          <Link to='/services/wideformat' className="PrimaryButton">SEE MORE</Link>
+          <Link to='/services/wideformat' className="PrimaryButton">WIDE FORMAT</Link>
         </div>
         <div className='col-1of2'>
           <AnimationOnScroll initiallyVisible={true} duration={1.25} offset={130} animateIn="animate__bounce" animateOut='animate__bounce'>
@@ -49,7 +49,7 @@ export default function ServicesBlock() {
           <p>
           We are one of the only print shops in Colorado to offer web design. We are experts at expanding your brand <em>across all media</em>, with extensive options ranging from prebuilt content frameworks to hand-written code.   
           </p>
-          <Link to='/services/web' className="PrimaryButton">SEE MORE</Link>
+          <Link to='/services/web' className="PrimaryButton">WEB DESIGN</Link>
         </div>
       </div>
     </section>

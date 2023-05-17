@@ -9,6 +9,16 @@
     --enhanceGradient: linear-gradient(-90deg, #ffff01 0%, #fe7d1a 28%, #fd1813 62%, #931a89 91%, #663794 100%);
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--enhanceOrange);
+    border-radius: .5px;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
