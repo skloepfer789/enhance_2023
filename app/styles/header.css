@@ -19,12 +19,17 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
+.invisibleLogo {
+    opacity: 0;
+}
+
 .mobileopen {
     display: none;
 }
 
 .logo {
     height: 30px;
+    transition-duration: 1s;
 }
 
 .sidebar {

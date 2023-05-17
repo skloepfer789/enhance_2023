@@ -1,4 +1,3 @@
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import styles from '~/styles/home.css';
 import HomeIntro from '../components/home-intro';
 import ServicesBlock from '../components/services-block';

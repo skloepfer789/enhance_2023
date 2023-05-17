@@ -15,6 +15,7 @@ export default function Header() {
     const [open, setOpen] = useState('closed');
     const [openState, setOpenState] = useState(false);
     const[navbar, setNavbar] = useState('transparent');
+    const[logo, setLogo] = useState('invisibleLogo');
 
     function ToggleMenu() {
         setOpenState(!openState);
@@ -29,8 +30,10 @@ export default function Header() {
         console.log(window.scrollY);
         if (window.scrollY >= 220) {
             setNavbar('');
+            setLogo('');
           } else {
             setNavbar('transparent');
+            setLogo('invisibleLogo');
           }
     }
 
@@ -43,7 +46,7 @@ export default function Header() {
     return (
         <>
             <header id='mobileheader' className={`mobile_header mobile ${navbar}`}>
-                <Link to='/'><SvgComponent name='icon1' className='logo' alt='Enhance Printing Logo'/></Link>                
+                <Link to='/'><SvgComponent name='icon1' className={`logo ${logo}`} alt='Enhance Printing Logo'/></Link>                
             </header>
             <button onClick={()=>ToggleMenu()} className={`burger`} >
                 <div className={`line ` + open} />

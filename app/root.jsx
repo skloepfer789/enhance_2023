@@ -12,7 +12,7 @@ import styles from "./styles/styles.css";
 
 import Header, {links as headerLinks} from "./components/header";
 import Footer, {links as footerLinks} from "./components/footer";
-import ContactForm, {links as contactLinks} from "./components/contactform";
+import {links as contactLinks} from "./components/contactform";
 
 export const links = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
