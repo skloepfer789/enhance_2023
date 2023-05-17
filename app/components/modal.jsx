@@ -1,4 +1,5 @@
 function Modal({ children, onClose }) {
+
   return (
     <div className="modal-backdrop " onClick={onClose}>
       <dialog

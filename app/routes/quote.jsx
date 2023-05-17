@@ -9,9 +9,11 @@ export const meta = () => {
   
   export default function QuotePage() {
     const nav = useNavigate();
+
     function closeHandler(){
       nav(-1);
     }
+
     return (
       <main>
         <Modal onClose={closeHandler} >

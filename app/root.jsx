@@ -36,7 +36,6 @@ export default function App() {
       <body>
         <Header />
         <Outlet />
-        <ContactForm/>
         <Footer />
         <ScrollRestoration />
         <Scripts />

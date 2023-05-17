@@ -276,6 +276,7 @@ h5 {
     background-color: #222;
     animation: fade-slide-right 1s ease-out forwards;
     z-index: 899;
+    overflow: hidden;
 }
 
 .modal-backdrop:hover {
@@ -287,12 +288,12 @@ h5 {
     top: 10vh;
     width: fit-content;
     padding: 50px;
-    border-radius: 6px;
     border: none;
     background-color: #fff;
     animation: fade-slide-down .5s ease-out forwards;
     z-index: 900;
     box-sizing: border-box;
+    overflow-y: scroll;
 }
 
 .modal:hover {
