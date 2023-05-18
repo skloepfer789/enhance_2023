@@ -1,7 +1,7 @@
 import {Link} from '@remix-run/react';
 
 import styles from '~/styles/services.css';
-import ServiceLoop from '../components/servicesLooping';
+import ServiceLanding from '../components/serviceLanding';
 
 export const meta = () => {
   return [{ title: "Enhnace Printing | Northern Colorado's One-Stop-Shop" }];
@@ -10,12 +10,7 @@ export const meta = () => {
 export default function ServicesPage() {
   return (
     <main>
-      <div className={`BarBlue TopBarThird`} >
-        <img className='topBarLogo' src='/images/SVG/enhance_fullLogo.svg' alt='Enhance Printing' />
-        <div className='looperBox'>
-          <ServiceLoop className='loop' />
-        </div>
-      </div>
+      <ServiceLanding />
       <div className="textArea">
         <p className='headline-paragraph' >
         Here at <em>Enhance Printing</em>, we can help create any marketing piece you need to further your brand. No job is too big or too small for us to take on. Whether you are searching for a company-wide rebrand and all the marketing pieces to accompany your new look, or a simple flyer for a garage sale, <em>we are here to help</em>.
