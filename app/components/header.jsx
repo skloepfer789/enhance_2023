@@ -46,16 +46,16 @@ export default function Header() {
     return (
         <>
             <header id='mobileheader' className={`mobile_header mobile ${navbar}`}>
-                <Link to='/'><SvgComponent name='icon1' className={`logo ${logo}`} alt='Enhance Printing Logo'/></Link>                
+                <Link to='/' aria-label="Home Button"><SvgComponent name='icon1' className={`logo ${logo}`} alt='Enhance Printing Logo'/></Link>                
             </header>
-            <button onClick={()=>ToggleMenu()} className={`burger`} >
+            <button onClick={()=>ToggleMenu()} className={`burger`} aria-label="MenuButton" >
                 <div className={`line ` + open} />
                 <div className={`line ` + open} />
                 <div className={`line ` + open} />
             </button>                
             <header>
                 <div className="sidebar"></div>
-                <button onClick={() => ToggleMenu()} className="invisible"><h2 className={`header_heading heading` + open}>{!openState ? `MENU` : `CLOSE`}</h2></button>
+                <button onClick={() => ToggleMenu()} className="invisible" aria-label='Menu'><h2 className={`header_heading heading` + open}>{!openState ? `MENU` : `CLOSE`}</h2></button>
             </header>
             
             <section className={`menu menu` + open} >
