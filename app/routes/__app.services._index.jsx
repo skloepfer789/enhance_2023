@@ -37,7 +37,7 @@ export default function ServicesPage() {
         </div>
         <div className='photoRow'>
           <div className='photoBox'>
-            <img className='verticalImg' src='/images/service-page/LomaxDoorHangar.webp' alt='Door Hangars' />
+            <img className='horizontalImg' src='/images/service-page/LomaxDoorHangar.webp' alt='Door Hangars' />
           </div>
           <div className='photoBox'>
             <img className='horizontalImg' src='/images/service-page/MuttKneeTrifold.webp' alt='TriFolds' />
