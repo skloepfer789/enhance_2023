@@ -6,6 +6,7 @@ export default function PrintingPage() {
   return (
     <main>
       <div className={`BarBlue TopBarThird`} >
+        <img className='topBarLogo' src='/images/SVG/enhance_fullLogo.svg' alt='Enhance Printing' />
         <h1 className="knockout">digital & offset printing</h1>
       </div>
       <div className="textArea">

@@ -74,7 +74,7 @@ export default function ServicesPage() {
           </div>
         </div>
         <div className='buttonDiv'>
-          <Link to='/services/printing' className='PrimaryButton' >OUR DESIGN SERVICES</Link>           
+          <Link to='/services/design' className='PrimaryButton' >OUR DESIGN SERVICES</Link>           
         </div>
       </section>
       <section className='blueBar knockout'>
@@ -101,7 +101,7 @@ export default function ServicesPage() {
           </div>
         </div>
         <div className='buttonDiv'>
-          <Link to='/services/printing' className='KnockoutButton' >OUR WIDE FORMAT SERVICES</Link>           
+          <Link to='/services/wideformat' className='KnockoutButton' >OUR WIDE FORMAT SERVICES</Link>           
         </div>
       </section>
       <section >
@@ -128,7 +128,7 @@ export default function ServicesPage() {
           </div>
         </div>
         <div className='buttonDiv'>
-          <Link to='/services/printing' className='PrimaryButton' >OUR WEB SERVICES</Link>           
+          <Link to='/services/web' className='PrimaryButton' >OUR WEB SERVICES</Link>           
         </div>
       </section>
     </main>

@@ -78,7 +78,7 @@ section {
         overflow: hidden;
         width: 70vw;
         height: 300px;
-        margin: 0 0 5px;
+        margin: 0 auto 5px;
     }
     .horizontalImg {
         height: unset;
