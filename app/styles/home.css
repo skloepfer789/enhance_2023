@@ -184,11 +184,4 @@
     .mainLogoBox {
         display: none;
     }
-    .inlineImage {
-        display: none;
-    }
-    .col-1of3-aside {
-        padding: 0;
-        margin: 0 auto 50px;
-    }
 }

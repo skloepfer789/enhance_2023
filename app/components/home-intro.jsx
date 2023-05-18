@@ -15,7 +15,7 @@ export default function HomeIntro() {
             </p>
           </div>
           <div className='col-1of3-aside'>
-            <video className='inlineImage' autoPlay muted loop={true} src='/images/ENH_CO-Icon.mp4' type='video/webm'/><br/>
+            <video className='inlineImage' playsInline autoPlay muted loop={true} src='/images/ENH_CO-Icon.mp4' type='video/webm'/><br/>
             <Link to='/about' className="PrimaryButton">ABOUT US</Link>
           </div>        
       </div>
