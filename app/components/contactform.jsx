@@ -19,25 +19,25 @@ export default function ContactForm() {
                 <Form className='contact'>
                     <div className='group'>
                         <input className='form-input' name='name' aria-label="Name" onChange={handleChange} />
-                        <label className={`form-input-label`} for='name' >name*</label>                    
+                        <label className={`form-input-label`} htmlFor='name' >name*</label>                    
                     </div>
                     <div className='input-row'>
                         <div className='group'>
                             <input className='form-input' name='email' aria-label="Email" onChange={handleChange} />
-                            <label className={`form-input-label`} for='email'>email*</label>                    
+                            <label className={`form-input-label`} htmlFor='email'>email*</label>                    
                         </div>
                         <div className='group'>
                             <input className='form-input' name='phone' aria-label="Phone" onChange={handleChange} />
-                            <label className={`form-input-label`} for='phone'>phone</label>                    
+                            <label className={`form-input-label`} htmlFor='phone'>phone</label>                    
                         </div>
                     </div>
                     <div className='group'>
                         <input className='form-input' name='company' aria-label="Company" onChange={handleChange} />
-                        <label className={`form-input-label`} for='company'>company</label>                    
+                        <label className={`form-input-label`} htmlFor='company'>company</label>                    
                     </div>
                     <div className='group'>
                         <textarea rows={7} className='form-input' name='message' aria-label="Message" onChange={handleChange} />
-                        <label className={`text-input-label`} for='message'>message*</label>                    
+                        <label className={`text-input-label`} htmlFor='message'>message*</label>                    
                     </div>
                     <button className="PrimaryButton" type='submit'>CONTACT</button>
                 </Form>
