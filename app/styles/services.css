@@ -2,6 +2,10 @@ section {
     padding: 50px 50px 70px 150px;
 }
 
+.looperBox {
+    margin-left: 60px;
+}
+
 .blueBar {
     background-color: var(--enhanceBlue);
 }
@@ -59,6 +63,10 @@ section {
 @media only screen and (max-width: 700px) {
     section {
         padding: 40px 0 60px 0;
+    }
+    .looperBox {
+        margin-left: 10px;
+        margin-top: -10vh;
     }
     .photoRow {
         display: flex;

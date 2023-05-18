@@ -1,6 +1,7 @@
 import {Link} from '@remix-run/react';
 
 import styles from '~/styles/services.css';
+import ServiceLoop from '../components/servicesLooping';
 
 export const meta = () => {
   return [{ title: "Enhnace Printing | Northern Colorado's One-Stop-Shop" }];
@@ -10,7 +11,10 @@ export default function ServicesPage() {
   return (
     <main>
       <div className={`BarBlue TopBarThird`} >
-        <h1 className="knockout"><strong>services</strong></h1>
+        <img className='topBarLogo' src='/images/SVG/enhance_fullLogo.svg' alt='Enhance Printing' />
+        <div className='looperBox'>
+          <ServiceLoop className='loop' />
+        </div>
       </div>
       <div className="textArea">
         <p className='headline-paragraph' >
