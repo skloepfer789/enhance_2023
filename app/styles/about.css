@@ -72,6 +72,10 @@
         position: relative;
         width: 80vw;
         margin: -5vh 5vw;
+        padding: 10px 25px;
+    }
+    .mission p {
+        letter-spacing: 0!important;
     }
     .aboutImage {
         display: none;

@@ -69,16 +69,15 @@ section {
         margin-top: -10vh;
     }
     .photoRow {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin: 70px;
+        display: block;
+        padding: 0;
+        margin: 70px 70px 70px 48px;
     }
     .photoBox {
         overflow: hidden;
-        width: 70vw;
-        height: 300px;
-        margin: 0 auto 5px;
+        width: 80vw;
+        height: 100%;
+        margin: 0 auto 10px;
     }
     .horizontalImg {
         height: unset;
