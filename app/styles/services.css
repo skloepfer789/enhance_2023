@@ -1,0 +1,84 @@
+section {
+    padding: 50px 50px 70px 150px;
+}
+
+.blueBar {
+    background-color: var(--enhanceBlue);
+}
+
+.buttonDiv {
+    text-align: center;
+}
+
+.photoRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 70px;
+}
+
+.photoBox {
+    overflow: hidden;
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontalImg {
+    height: 105%;
+    transition: all 2s ease-in-out;
+}
+
+.verticalImg {
+    width: 105%;
+    transition: all 2s ease-in-out;
+}
+
+.photoBox img:hover {
+    transform: scale(1.08);
+}
+
+@media only screen and (max-width: 1100px) {
+    section {
+        padding: 40px 0 60px 50px;
+    }
+    .photoBox {
+        overflow: hidden;
+        width: 30%;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    section {
+        padding: 40px 0 60px 0;
+    }
+    .photoRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 70px;
+    }
+    .photoBox {
+        overflow: hidden;
+        width: 70vw;
+        height: 300px;
+        margin: 0 0 5px;
+    }
+    .horizontalImg {
+        height: unset;
+        width: 105%;
+        transition: all 2s ease-in-out;
+    }
+    .verticalImg {
+        width: 105%;
+        transition: all 2s ease-in-out;
+    }
+}

@@ -19,6 +19,7 @@ export const meta = () => {
           to be directed directly to our upload service!</p>
         </div>
       </main>
+
     );
   }
   

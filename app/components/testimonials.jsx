@@ -17,7 +17,7 @@ export default class Testimonials extends Component {
             interval={3000}
         >
             <div>
-                <img src="/images/wentworth@4x.png" alt='The Wentworth Group'/>
+                <img src="/images/wentworth@4x.webp" alt='The Wentworth Group'/>
                 <div className='myCarousel'>
                     <h3>Kevin Flowers</h3>
                     <h4>The Wentworth Company</h4>
@@ -25,7 +25,7 @@ export default class Testimonials extends Component {
                 </div>                
             </div>
             <div>
-                <img src="/images/tutoring@4x.png" alt='Tutoring Excellence' />
+                <img src="/images/tutoring@4x.webp" alt='Tutoring Excellence' />
                 <div className='myCarousel'>
                     <h3>Tutoring Excellence</h3>
                     <h4>Fort Collins</h4>
@@ -33,7 +33,7 @@ export default class Testimonials extends Component {
                 </div> 
             </div>
             <div>
-                <img src="/images/blue_sage@4x.png" alt='Blue Sage' />
+                <img src="/images/blue_sage@4x.webp" alt='Blue Sage' />
                 <div className='myCarousel'>
                     <h3>Jennifer Bohlig</h3>
                     <h4>Blue Sage Photography</h4>

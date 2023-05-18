@@ -1,0 +1,101 @@
+.mission {
+    background-color: white;
+    padding: 50px;
+    width: 45vw;
+    position: absolute;
+    top: 18%;
+    left: 80px;
+    z-index: 50;
+}
+
+.aboutImage {
+    width: 60vw;
+    position: relative;
+    float: right;
+    margin: -10vh -85px 10vh;
+    right: 0;
+    top: 6vh;
+}
+
+.row {
+    width: 100vw - 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    padding-left: 20px;
+}
+
+.blueBar {
+    background-color: var(--enhanceBlue);
+    padding: 50px;
+}
+
+.col-1of3 {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-2of3 {
+    width: 50vw;
+}
+
+.col-1of3 img {
+    width: 50%;
+}
+
+.col-2of3 p {
+    text-align: justify;
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .mission {
+        width: 55vw;
+        padding: 30px;
+        top: 10%;
+    }
+    .aboutImage {
+        width: 50vw;
+        position: relative;
+        float: right;
+        margin: 17vh -40px 10vh;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mission {
+        top: unset;
+        left: unset;
+        position: relative;
+        width: 80vw;
+        margin: -5vh 5vw;
+    }
+    .aboutImage {
+        display: none;
+    }
+    .col-1of3 {
+        width: 100%;
+    }
+    .col-1of3 img {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+    .col-2of3 {
+        width: 100%;
+        text-align: left;
+    }
+    .col-2of3 p {
+        text-align: left;
+        margin-left: 0;
+    }
+    .row {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .blueBar {
+        padding: 50px 25px;
+    }
+}

@@ -12,13 +12,12 @@ import styles from "./styles/styles.css";
 
 import Header, {links as headerLinks} from "./components/header";
 import Footer, {links as footerLinks} from "./components/footer";
-import {links as contactLinks} from "./components/contactform";
+
 
 export const links = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
   ...headerLinks(),
   ...footerLinks(),
-  ...contactLinks(),
   {rel: "stylesheet", href: styles},
   {rel: 'manifest', href: '/site.webmanifest'},
 ];
@@ -35,7 +34,6 @@ export default function App() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></link>
       </head>
       <body>
-        <Header />
         <Outlet />
         <Footer />
         <ScrollRestoration />
