@@ -27,7 +27,6 @@ export default function Header() {
     };
 
    const changeBackground = () => {
-        console.log(window.scrollY);
         if (window.scrollY >= 220) {
             setNavbar('');
             setLogo('');

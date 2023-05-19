@@ -2,12 +2,17 @@ import {Link} from '@remix-run/react';
 
 import styles from '~/styles/services.css';
 import ServiceLanding from '../components/serviceLanding';
+import ScrollingImage from '../components/scrollingImage';
 
 export const meta = () => {
   return [{ title: "Enhnace Printing | Northern Colorado's One-Stop-Shop" }];
 };
 
 export default function ServicesPage() {
+
+  function scroller(){
+    
+  }
   return (
     <main>
       <ServiceLanding />
@@ -30,16 +35,10 @@ export default function ServicesPage() {
             We run both digital and offset machines to allow <em>competitive pricing</em> and turnarounds for both short, and long runs. Our <em>state-of-the-art</em> bindery will help you create a sleek and modern finished piece, with a wide variety of binding, folding, creasing, and cutting options. We also have one of the only <em>digital envelope printers</em> in Northern Colorado, allowing us to create eye-catching envelopes, no matter the run size. 
           </p>        
         </div>
-        <div className='photoRow'>
-          <div className='photoBox'>
-            <img className='horizontalImg' src='/images/service-page/LomaxDoorHangar.webp' alt='Door Hangars' />
-          </div>
-          <div className='photoBox'>
-            <img className='horizontalImg' src='/images/service-page/MuttKneeTrifold.webp' alt='TriFolds' />
-          </div>
-          <div className='photoBox'>
-            <img className='horizontalImg' src='/images/service-page/BusinessCards1.webp' alt='Business Cards' />
-          </div>
+        <div className='photoRow'>          
+          <ScrollingImage classType='horizontalImg' source='/images/service-page/LomaxDoorHangar.webp' altText='Door Hangars' idAdd ='1' maxScroll={400} />
+          <ScrollingImage classType='horizontalImg' source='/images/service-page/MuttKneeTrifold.webp' altText='TriFold Brochures' idAdd ='2' maxScroll={400} />
+          <ScrollingImage classType='horizontalImg' source='/images/service-page/BusinessCards1.webp' altText='Business Cards' idAdd ='3' maxScroll={400} />
         </div>
         <div className='buttonDiv'>
           <Link to='/services/printing' className='KnockoutButton' >OUR PRINT SERVICES</Link>           
@@ -58,15 +57,9 @@ export default function ServicesPage() {
           </p>        
         </div>
         <div className='photoRow'>
-          <div className='photoBox'>
-            <img className='horizontalImg' src='/images/service-page/MuttKneeLogo.webp' alt='Door Hangars' />
-          </div>
-          <div className='photoBox'>
-            <img className='horizontalImg' src='/images/service-page/RexLogo.webp' alt='TriFolds' />
-          </div>
-          <div className='photoBox'>
-            <img className='horizontalImg' src='/images/service-page/SunOutLogo.webp' alt='Business Cards' />
-          </div>
+          <ScrollingImage classType='horizontalImg' source='/images/service-page/MuttKneeLogo.webp' altText='Mutt Knee Brace Logo' idAdd ='4' />
+          <ScrollingImage classType='horizontalImg' source='/images/service-page/RexLogo.webp' altText='Rexs Plumbing Logo' idAdd ='5' />
+          <ScrollingImage classType='horizontalImg' source='/images/service-page/SunOutLogo.webp' altText='Sun Out Window Tint Logo' idAdd ='6' />
         </div>
         <div className='buttonDiv'>
           <Link to='/services/design' className='PrimaryButton' >OUR DESIGN SERVICES</Link>           
@@ -85,15 +78,9 @@ export default function ServicesPage() {
           </p>        
         </div>
         <div className='photoRow'>
-          <div className='photoBox'>
-            <img className='horizontalImg' src='/images/service-page/Rex Van.webp' alt='Vehicle Wraps' />
-          </div>
-          <div className='photoBox'>
-            <img className='horizontalImg' src='/images/service-page/SummitSign.webp' alt='Signage' />
-          </div>
-          <div className='photoBox'>
-            <img className='horizontalImg' src='/images/service-page/EndoRockies_Round_Sticker_Mockup_6.webp' alt='Labels' />
-          </div>
+          <ScrollingImage classType='horizontalImg' source='/images/service-page/Rex Van.webp' altText='Vehicle Wraps' idAdd ='7' />
+          <ScrollingImage classType='horizontalImg' source='/images/service-page/SummitSign.webp' altText='Signage' idAdd ='8' />
+          <ScrollingImage classType='horizontalImg' source='/images/service-page/EndoRockies_Round_Sticker_Mockup_6.webp' altText='Labels' idAdd ='9' />
         </div>
         <div className='buttonDiv'>
           <Link to='/services/wideformat' className='KnockoutButton' >OUR WIDE FORMAT SERVICES</Link>           
@@ -112,15 +99,9 @@ export default function ServicesPage() {
           </p>        
         </div>
         <div className='photoRow'>
-          <div className='photoBox'>
-            <img className='horizontalImg' src='/images/service-page/HoodGuyMockup copy.webp' alt='Door Hangars' />
-          </div>
-          <div className='photoBox'>
-            <img className='horizontalImg' src='/images/service-page/Naturescapes_Site.webp' alt='TriFolds' />
-          </div>
-          <div className='photoBox'>
-            <img className='horizontalImg' src='/images/service-page/AegirsWorkshopSite.webp' alt='Business Cards' />
-          </div>
+          <ScrollingImage classType='horizontalImg' source='/images/service-page/HoodGuyMockup copy.webp' altText='The Hood Guy Website' idAdd ='10' />
+          <ScrollingImage classType='horizontalImg' source='/images/service-page/Naturescapes_Site.webp' altText='NatureScapes Website' idAdd ='11' />
+          <ScrollingImage classType='horizontalImg' source='/images/service-page/AegirsWorkshopSite.webp' altText='Aegirs Workshop Website' idAdd ='12' />
         </div>
         <div className='buttonDiv'>
           <Link to='/services/web' className='PrimaryButton' >OUR WEB SERVICES</Link>           

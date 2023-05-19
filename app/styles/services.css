@@ -29,20 +29,18 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .horizontalImg {
     height: 105%;
-    transition: all 2s ease-in-out;
+    position: scroll;
+    transition: all .01s ease-in-out;
 }
 
 .verticalImg {
     width: 105%;
     transition: all 2s ease-in-out;
-}
-
-.photoBox img:hover {
-    transform: scale(1.08);
 }
 
 @media only screen and (max-width: 1100px) {
