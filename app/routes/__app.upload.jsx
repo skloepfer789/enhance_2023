@@ -1,6 +1,13 @@
 export const meta = () => {
-    return [{ title: "Enhnace Printing | Northern Colorado's One-Stop-Shop" }];
-  };
+  return [
+    {title: "Upload Files - Enhance Printing"} ,
+    {name: "copyright", content: "Copyright &amp;copy; 2023 Enhance Printing, All rights reserved."},
+    {name: "description", content: "Upload your files here and we can start making your vision come true!"},    
+   {name: "og:title", content: "Upload files to Enhance Printing"},
+   {name: "og:description", content: "Upload your files here and we can start making your vision come true!"},
+   {name: "og:image", content: "/favicon.ico"},
+  ];
+};
   
   export default function UploadPage() {
     return (

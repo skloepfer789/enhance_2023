@@ -1,8 +1,15 @@
 import { Link } from "@remix-run/react";
 
 export const meta = () => {
-    return [{ title: "Enhnace Printing | Northern Colorado's One-Stop-Shop" }];
-  };
+  return [
+    {title: "Frequently Asked Questions - Enhance Printing"} ,
+    {name: "copyright", content: "Copyright &amp;copy; 2023 Enhance Printing, All rights reserved."},
+    {name: "description", content: "Have some questsions about Enhance Printing's services or capabilities? Here are the most common questions we are asked."},    
+   {name: "og:title", content: "Enhance Printing's Most Common Questions"},
+   {name: "og:description", content: "Have some questsions about Enhance Printing's services or capabilities? Here are the most common questions we are asked."},
+   {name: "og:image", content: "/favicon.ico"},
+  ];
+};
   
   export default function FAQPage() {
     return (
