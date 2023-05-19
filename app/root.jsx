@@ -10,7 +10,7 @@ import {
 
 import styles from "./styles/styles.css";
 
-import Header, {links as headerLinks} from "./components/header";
+import {links as headerLinks} from "./components/header";
 import Footer, {links as footerLinks} from "./components/footer";
 
 
@@ -21,6 +21,12 @@ export const links = () => [
   {rel: "stylesheet", href: styles},
   {rel: 'manifest', href: '/site.webmanifest'},
 ];
+
+export const meta = () => {
+  return [
+    {title: "Enhance Printing - Printing and Branding"} ,
+  ];
+};
 
 export default function App() {
   return (

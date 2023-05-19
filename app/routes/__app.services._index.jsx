@@ -5,14 +5,18 @@ import ServiceLanding from '../components/serviceLanding';
 import ScrollingImage from '../components/scrollingImage';
 
 export const meta = () => {
-  return [{ title: "Enhnace Printing | Northern Colorado's One-Stop-Shop" }];
+  return [
+    {title: "Printing, Branding, Signage, and Web Design - Enhance Printing"} ,
+    {name: "copyright", content: "Copyright &amp;copy; 2023 Enhance Printing, All rights reserved."},
+    {name: "description", content: "Here at Enhance Printing, we strive to be your Colorado's one-stop-shop for all your printing, graphic design, coroporate branding, wide format printing, and web design."},
+   {name: "og:title", content: "Enhance Printing: Services's Offered"},
+   {name: "og:description", content: "Here at Enhance Printing, we strive to be your Colorado's one-stop-shop for all your printing, graphic design, coroporate branding, wide format printing, and web design."},
+   {name: "og:image", content: "/favicon.ico"},
+  ];
 };
 
 export default function ServicesPage() {
-
-  function scroller(){
     
-  }
   return (
     <main>
       <ServiceLanding />
