@@ -16,7 +16,7 @@ export const meta = () => {
         <iframe className="frame" src="https://spaces.hightail.com/uplink/EnhancePrintingDropBox" title="Enhance Printing Upload" />
         <div className="textArea">
           <p>If you’re having problems viewing the frame above, click  
-          <a target="_blank" rel='noreferrer' className="inlineLink" href='https://spaces.hightail.com/uplink/EnhancePrintingDropBox'> HERE </a> 
+          <a target="_blank" rel='noreferrer' className="inlineLink" href='https://spaces.hightail.com/uplink/EnhancePrintingDropBox' aria-label="Hightail Upload Link"> HERE </a> 
           to be directed directly to our upload service!</p>
         </div>
       </main>
