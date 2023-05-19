@@ -1,5 +1,6 @@
 import styles from "~/styles/about.css";
 import HeaderNoFade from "../components/header-noFade";
+import ContactForm, {links as ContactLinks} from "../components/contactform";
 
 export const meta = () => {
     return [{ title: "Enhnace Printing | Northern Colorado's One-Stop-Shop" }];
@@ -55,6 +56,7 @@ export const meta = () => {
             We pride ourselves in our speed and efficiency. Working closely with you to come up with the best solutions for your business, we strive to produce fast and cost-effective work without sacrificing quality or consistency.<br/><br/>
           </p>
         </div>
+        <ContactForm />
       </main>
       </>
 
@@ -63,5 +65,6 @@ export const meta = () => {
 
 export const links = () => [
   {rel:   "stylesheet", href: styles},
+  ...ContactLinks(),
 ];
   
